@@ -2,6 +2,7 @@
   "name": "@nexssp/dddebug",
   "version": "1.0.1",
   "description": "Quick and easy debugging with ddd function.",
+  "homepage": "https://nexss.com",
   "main": "dist/dddebug.min.js",
   "scripts": {
     "prepublish": "npm run build",
