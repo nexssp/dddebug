@@ -1,6 +1,6 @@
 {
   "name": "@nexssp/dddebug",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quick and easy debugging with ddd function.",
   "homepage": "https://nexss.com",
   "main": "dist/dddebug.min.js",
@@ -9,6 +9,9 @@
     "build": "uglifyjs src/dddebug.js -c -m --warn --output dist/dddebug.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/nexssp/dddebug.git"
