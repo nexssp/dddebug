@@ -1,6 +1,6 @@
 {
   "name": "@nexssp/dddebug",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quick and easy debugging with ddd function.",
   "homepage": "https://nexss.com",
   "main": "dist/dddebug.min.js",
