@@ -1,0 +1,37 @@
+{
+  "name": "@nexssp/dddebug",
+  "version": "1.0.1",
+  "description": "Quick and easy debugging with ddd function.",
+  "main": "dist/dddebug.min.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "uglifyjs src/dddebug.js -c -m --warn --output dist/dddebug.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nexssp/dddebug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nexssp/dddebug/issues"
+  },
+  "keywords": [
+    "stack",
+    "error",
+    "tool",
+    "helper",
+    "safe"
+  ],
+  "engines": {
+    "node": ">=6.17.0"
+  },
+  "author": "Marcin Polak mapoart@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@nexssp/ansi": "^1.0.7",
+    "get-caller-file": "^2.0.5"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.13.4"
+  }
+}
