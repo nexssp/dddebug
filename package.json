@@ -1,28 +1,30 @@
 {
   "name": "@nexssp/dddebug",
-  "version": "1.0.3",
+  "version": "1.0.5",
+  "license": "MIT",
+  "main": "dist/dddebug.js",
   "description": "Quick and easy debugging with ddd function.",
   "homepage": "https://nexss.com",
-  "main": "dist/dddebug.min.js",
+  "files": [
+    "dist/dddebug.js"
+  ],
   "scripts": {
     "prepublish": "npm run build",
-    "build": "uglifyjs src/dddebug.js -c -m --warn --output dist/dddebug.min.js",
+    "build": "npx @nexssp/min@1.0.6",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": [
-    "dist/**/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/nexssp/dddebug.git"
   },
   "bugs": {
-    "url": "https://github.com/nexssp/dddebug/issues"
+    "url": "https://github.com/nexssp/dddebug/issues",
+    "email": "mapoart@gmail.com"
   },
   "keywords": [
-    "stack",
-    "error",
+    "debug",
     "tool",
+    "error",
     "helper",
     "safe"
   ],
@@ -30,12 +32,18 @@
     "node": ">=6.17.0"
   },
   "author": "Marcin Polak mapoart@gmail.com",
-  "license": "MIT",
   "dependencies": {
     "@nexssp/ansi": "^1.0.7",
     "get-caller-file": "^2.0.5"
   },
-  "devDependencies": {
-    "uglify-js": "^3.13.4"
-  }
+  "funding": [
+    {
+      "type": "paypal",
+      "url": "https://www.paypal.com/paypalme/mapoart"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/nexssp/cli?sponsor=1"
+    }
+  ]
 }
