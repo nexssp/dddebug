@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "license": "MIT",
   "main": "src/dddebug.js",
-  "description": "Quick and easy debugging with ddd and ddc functions.",
+  "description": "Easy Debugging with useful information",
   "homepage": "https://nexss.com",
   "files": [
     "src/dddebug.js"

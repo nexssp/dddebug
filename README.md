@@ -1,6 +1,6 @@
 # @nexssp/dddebug
 
-- EASY Debugging with useful information
+- EASY Debugging with USEFUL information
 
 Just simply debug function. **no console.log/process.exit** -> just **ddd** with nice debug output and time executed.
 

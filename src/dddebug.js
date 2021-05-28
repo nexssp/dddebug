@@ -9,7 +9,7 @@ const d =
       process.stdout.write(yellow(bold(require('util').inspect(e, { depth: 5 }) + '\n')))
     })
 
-    const callerDetails = _getCallerFile()
+    const callerDetails = _getCallerDetails()
     const filename = callerDetails.filepath.split(/[\\\//]/g).pop()
 
     const location = `${bold(cyanBG(` ${filename} `))} ${bold(red(callerDetails.line))}:${
@@ -30,9 +30,10 @@ const d =
     if (stop) process.exit(0)
   }
 
-// BASED ON: https://stackoverflow.com/questions/16697791/nodejs-get-filename-of-caller-function
+// Below function _getCallerDetails BASED ON: https://stackoverflow.com/questions/16697791/nodejs-get-filename-of-caller-function
 // AND: // BASED ON: https://stackoverflow.com/questions/28631260/how-to-get-filename-and-line-number-of-where-a-function-is-called-in-node/47105238
-function _getCallerFile() {
+// Re-written by Marcin Polak / nexss.com
+function _getCallerDetails() {
   var originalFunc = Error.prepareStackTrace
 
   var callerfile
