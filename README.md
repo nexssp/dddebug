@@ -21,6 +21,17 @@ npm i @nexssp/dddebug
 
 ## Usage
 
+### Global
+
+```js
+require('@nexssp/dddebug/global') // and from now you can use it everywere..
+
+ddc('debug A')
+ddd('stop here', { myvar: debug })
+```
+
+### Standard
+
 ```js
 const { ddd, ddc } = require('@nexssp/dddebug')
 

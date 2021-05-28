@@ -31,7 +31,8 @@
   },
   "author": "Marcin Polak mapoart@gmail.com",
   "dependencies": {
-    "@nexssp/ansi": "^1.1.2"
+    "@nexssp/ansi": "^1.1.2",
+    "@nexssp/const": "^1.0.13"
   },
   "funding": [
     {

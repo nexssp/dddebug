@@ -1,0 +1,5 @@
+const { nConst } = require('@nexssp/const')
+const { ddd, ddc } = require('./')
+nConst('ddd', ddd)
+nConst('d', ddd)
+nConst('ddc', ddc)
