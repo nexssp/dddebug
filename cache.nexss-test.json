@@ -1,0 +1,14 @@
+[
+  {
+    "file": "tests/ddc.nexss-assert.js",
+    "results": "ok",
+    "totalOk": 1,
+    "totalFailed": 0
+  },
+  {
+    "file": "tests/ddd.nexss-assert.js",
+    "results": "ok",
+    "totalOk": 1,
+    "totalFailed": 0
+  }
+]
